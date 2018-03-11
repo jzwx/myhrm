@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLogindo</servlet-name>
+    <servlet-class>com.my.servlet.AdminLogindo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Vali</servlet-name>
+    <servlet-class>com.my.servlet.Vali</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Userlist</servlet-name>
+    <servlet-class>com.my.servlet.Userlist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userDel</servlet-name>
+    <servlet-class>com.my.servlet.userDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userGet</servlet-name>
+    <servlet-class>com.my.servlet.userGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userUpdate</servlet-name>
+    <servlet-class>com.my.servlet.userUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addUser</servlet-name>
+    <servlet-class>com.my.servlet.addUser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Schoollist</servlet-name>
+    <servlet-class>com.my.servlet.Schoollist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>schoolDel</servlet-name>
+    <servlet-class>com.my.servlet.schoolDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>schoolGet</servlet-name>
+    <servlet-class>com.my.servlet.schoolGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>schoolUpdate</servlet-name>
+    <servlet-class>com.my.servlet.schoolUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addSchool</servlet-name>
+    <servlet-class>com.my.servlet.addSchool</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Deptlist</servlet-name>
+    <servlet-class>com.my.servlet.Deptlist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deptDel</servlet-name>
+    <servlet-class>com.my.servlet.deptDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deptGet</servlet-name>
+    <servlet-class>com.my.servlet.deptGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deptUpdate</servlet-name>
+    <servlet-class>com.my.servlet.deptUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addDept</servlet-name>
+    <servlet-class>com.my.servlet.addDept</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Joblist</servlet-name>
+    <servlet-class>com.my.servlet.Joblist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jobDel</servlet-name>
+    <servlet-class>com.my.servlet.jobDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jobGet</servlet-name>
+    <servlet-class>com.my.servlet.jobGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jobUpdate</servlet-name>
+    <servlet-class>com.my.servlet.jobUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addJob</servlet-name>
+    <servlet-class>com.my.servlet.addJob</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Titlelist</servlet-name>
+    <servlet-class>com.my.servlet.Titlelist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addTitle</servlet-name>
+    <servlet-class>com.my.servlet.addTitle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>titleDel</servlet-name>
+    <servlet-class>com.my.servlet.titleDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>titleGet</servlet-name>
+    <servlet-class>com.my.servlet.titleGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>titleUpdate</servlet-name>
+    <servlet-class>com.my.servlet.titleUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Stipendlist</servlet-name>
+    <servlet-class>com.my.servlet.Stipendlist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addStipend</servlet-name>
+    <servlet-class>com.my.servlet.addStipend</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stipendDel</servlet-name>
+    <servlet-class>com.my.servlet.stipendDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stipendGet</servlet-name>
+    <servlet-class>com.my.servlet.stipendGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>stipendUpdate</servlet-name>
+    <servlet-class>com.my.servlet.stipendUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Institutionlist</servlet-name>
+    <servlet-class>com.my.servlet.Institutionlist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>institutionDel</servlet-name>
+    <servlet-class>com.my.servlet.institutionDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>institutionGet</servlet-name>
+    <servlet-class>com.my.servlet.institutionGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>institutionUpdate</servlet-name>
+    <servlet-class>com.my.servlet.institutionUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addInstitution</servlet-name>
+    <servlet-class>com.my.servlet.addInstitution</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Workerslist</servlet-name>
+    <servlet-class>com.my.servlet.Workerslist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>workersDel</servlet-name>
+    <servlet-class>com.my.servlet.workersDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>workersGet</servlet-name>
+    <servlet-class>com.my.servlet.workersGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>workersUpdate</servlet-name>
+    <servlet-class>com.my.servlet.workersUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addWorkers</servlet-name>
+    <servlet-class>com.my.servlet.addWorkers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Getworkers</servlet-name>
+    <servlet-class>com.my.servlet.Getworkers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>passwdUpdate</servlet-name>
+    <servlet-class>com.my.servlet.passwdUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Searchlist</servlet-name>
+    <servlet-class>com.my.servlet.Searchlist</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>listWorkersearch</servlet-name>
+    <servlet-class>com.my.servlet.listWorkersearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addgetWorkers</servlet-name>
+    <servlet-class>com.my.servlet.addgetWorkers</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Information</servlet-name>
+    <servlet-class>com.my.servlet.Information</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLogindo</servlet-name>
+    <url-pattern>/AdminLogindo.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Vali</servlet-name>
+    <url-pattern>/Vali.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Userlist</servlet-name>
+    <url-pattern>/Userlist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userDel</servlet-name>
+    <url-pattern>/userDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userGet</servlet-name>
+    <url-pattern>/userGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userUpdate</servlet-name>
+    <url-pattern>/userUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addUser</servlet-name>
+    <url-pattern>/addUser.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Schoollist</servlet-name>
+    <url-pattern>/Schoollist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>schoolDel</servlet-name>
+    <url-pattern>/schoolDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>schoolGet</servlet-name>
+    <url-pattern>/schoolGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>schoolUpdate</servlet-name>
+    <url-pattern>/schoolUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addSchool</servlet-name>
+    <url-pattern>/addSchool.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deptlist</servlet-name>
+    <url-pattern>/Deptlist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deptDel</servlet-name>
+    <url-pattern>/deptDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deptGet</servlet-name>
+    <url-pattern>/deptGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deptUpdate</servlet-name>
+    <url-pattern>/deptUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addDept</servlet-name>
+    <url-pattern>/addDept.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Joblist</servlet-name>
+    <url-pattern>/Joblist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jobDel</servlet-name>
+    <url-pattern>/jobDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jobGet</servlet-name>
+    <url-pattern>/jobGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jobUpdate</servlet-name>
+    <url-pattern>/jobUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addJob</servlet-name>
+    <url-pattern>/addJob.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Titlelist</servlet-name>
+    <url-pattern>/Titlelist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addTitle</servlet-name>
+    <url-pattern>/addTitle.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>titleDel</servlet-name>
+    <url-pattern>/titleDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>titleGet</servlet-name>
+    <url-pattern>/titleGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>titleUpdate</servlet-name>
+    <url-pattern>/titleUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Stipendlist</servlet-name>
+    <url-pattern>/Stipendlist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addStipend</servlet-name>
+    <url-pattern>/addStipend.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stipendDel</servlet-name>
+    <url-pattern>/stipendDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stipendGet</servlet-name>
+    <url-pattern>/stipendGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>stipendUpdate</servlet-name>
+    <url-pattern>/stipendUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Institutionlist</servlet-name>
+    <url-pattern>/Institutionlist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>institutionDel</servlet-name>
+    <url-pattern>/institutionDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>institutionGet</servlet-name>
+    <url-pattern>/institutionGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>institutionUpdate</servlet-name>
+    <url-pattern>/institutionUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addInstitution</servlet-name>
+    <url-pattern>/addInstitution.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Workerslist</servlet-name>
+    <url-pattern>/Workerslist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>workersDel</servlet-name>
+    <url-pattern>/workersDel.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>workersGet</servlet-name>
+    <url-pattern>/workersGet.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>workersUpdate</servlet-name>
+    <url-pattern>/workersUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addWorkers</servlet-name>
+    <url-pattern>/addWorkers.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Getworkers</servlet-name>
+    <url-pattern>/Getworkers.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passwdUpdate</servlet-name>
+    <url-pattern>/passwdUpdate.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Searchlist</servlet-name>
+    <url-pattern>/Searchlist.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>listWorkersearch</servlet-name>
+    <url-pattern>/listWorkersearch.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addgetWorkers</servlet-name>
+    <url-pattern>/addgetWorkers.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Information</servlet-name>
+    <url-pattern>/Information.bin</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>adminLogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
